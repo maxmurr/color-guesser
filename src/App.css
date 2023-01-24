@@ -1,0 +1,43 @@
+.App {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	flex-direction: column;
+}
+
+.guess-me {
+	width: 20rem;
+	height: 20rem;
+}
+
+button {
+	padding: 1rem;
+	border-radius: 1rem;
+	border: none;
+	margin-top: 2rem;
+	background-color: aquamarine;
+}
+
+button:hover {
+	background-color: aqua;
+	cursor: pointer;
+}
+
+button + button {
+	margin-left: 2rem;
+}
+
+.answer {
+	margin-top: 2rem;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.answer #right {
+	color: rgba(115, 255, 0, 0.699);
+}
+
+.answer #wrong {
+	color: rgba(243, 74, 74, 0.699);
+}
